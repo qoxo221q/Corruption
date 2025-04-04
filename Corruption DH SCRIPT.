@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://github.com/qoxo221q/Corruption/
 local ThemeManager = loadstring(game:HttpGet("https://github.com/qoxo221q/Corruption/blob/main/Corruption.Themes"))()
 local SaveManager = loadstring(game:HttpGet("https://github.com/qoxo221q/Corruption/blob/main/Corruption.Lua.Source"))()
 local Window = Library:CreateWindow({
- Title = 'Corruption | DaHood🔫 | 347f4ac346734391 |,
+ Title = 'Corruption | DaHood🔫 | Version 347f |,
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -14,12 +14,12 @@ local Window = Library:CreateWindow({
 
 
 
-    -- Corruption Taps NIGGER
-    -- Corruption Taps NIGGER
-    -- Corruption Taps NIGGER
-    -- Corruption Taps NIGGER
+    -- CALLBACK NOTE:
+    -- Passing in callback functions via the initial element parameters (i.e. Callback = function(Value)...) works
+    -- HOWEVER, using Toggles/Options.INDEX:OnChanged(function(Value) ... ) is the RECOMMENDED way to do this.
+    -- I strongly recommend decoupling UI code from logic code. i.e. Create your UI elements FIRST, and THEN setup :OnChanged functions later.
 
-    -- Corruption Taps NIGGER
+    -- You do not have to set your tabs & groups up this way, just a prefrence.
 
     Tabs = {
     Main = Window:AddTab('Main'),
@@ -3882,13 +3882,13 @@ RunService = game:GetService("RunService")
 ReplicatedStorage = game:GetService("ReplicatedStorage")
 TextChatService = game:GetService("TextChatService")
 Toxic = {
-    "EZ",
-    "Bro doesn't know what aimlabs is",
-    "SO EZ",
-    "What are you aiming at, your dad?",
-    "Bro doesn't have rizz",
-    "Sigma who?",
-    "storm trooper ahh"
+    "Back to meepcity pooron",
+    "U couldn't tap like me??",
+    "Too Easy. I just aced in roblox cornball",
+    "What are you aiming at, your Mother?",
+    "Bro doesn't have any chuzz",
+    "Sigma who, Ya daddy son",
+    "poor ghoul trooper ahh"
 }
 
 ChatVersion = TextChatService.ChatVersion
@@ -3943,14 +3943,14 @@ RunService = game:GetService("RunService")
 ReplicatedStorage = game:GetService("ReplicatedStorage")
 TextChatService = game:GetService("TextChatService")
 Promo = {
-    "🎭Hexploit On Top🎭",
-    "🎭Get Hexploit🎭",
-    "🎭Hexploit Best Lock🎭",
-    "🎭Hexploit Best Da Hood Script🎭",
-    "🎭HexploitUI On Git🎭",
-    "🎭Hexploit Keyless🎭",
-    "🎭Hexploit Best AutoStomp🎭",
-    "🎭Hexploit Best Animations🎭"
+    "🤑Corruption Taps🤑",
+    "🤑Get Corruption Now Noob🤑",
+    "🤑Corruption Best Cheap HvH🤑",
+    "🤑Corruptiont Best Cheap Da Hood Script🤑",
+    "🤑Corruption Is Goated🤑",
+    "🤑Corruption Owns You🤑",
+    "🤑Corruption Has The Best AutoStomp🤑",
+    "🤑Corruption Has The Best Animations🤑"
 }
 
 ChatVersion = TextChatService.ChatVersion
@@ -4057,7 +4057,7 @@ MyButton = RightGroupBox:AddButton({
                 -- Show the notification
                 game.StarterGui:SetCore("SendNotification", {
                     Title = "Script Loaded";
-                    Text = "🎭  Hexploit 🎭";
+                    Text = "🤑 Corruption 🤑";
                     Duration = 5;
                 })
                 notificationShown = false  -- Mark that the notification has been shown
@@ -6542,8 +6542,8 @@ MyButton = LeftGroupBox:AddButton({
     Text = 'Auto Redeem Codes',
     Func = function()
         local codes = {
-            "SHRIMP",
-            "VIP",
+            "Duck",
+            "Watch",
             "2025",
             "DACARNIVAL",
             "RUBY",
