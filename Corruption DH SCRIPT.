@@ -14,12 +14,12 @@ local Window = Library:CreateWindow({
 
 
 
-    -- CALLBACK NOTE:
-    -- Passing in callback functions via the initial element parameters (i.e. Callback = function(Value)...) works
-    -- HOWEVER, using Toggles/Options.INDEX:OnChanged(function(Value) ... ) is the RECOMMENDED way to do this.
-    -- I strongly recommend decoupling UI code from logic code. i.e. Create your UI elements FIRST, and THEN setup :OnChanged functions later.
+    -- Corruption Taps NIGGER
+    -- Corruption Taps NIGGER
+    -- Corruption Taps NIGGER
+    -- Corruption Taps NIGGER
 
-    -- You do not have to set your tabs & groups up this way, just a prefrence.
+    -- Corruption Taps NIGGER
 
     Tabs = {
     Main = Window:AddTab('Main'),
