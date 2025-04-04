@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://github.com/qoxo221q/Corruption/
 local ThemeManager = loadstring(game:HttpGet("https://github.com/qoxo221q/Corruption/blob/main/Corruption.Themes"))()
 local SaveManager = loadstring(game:HttpGet("https://github.com/qoxo221q/Corruption/blob/main/Corruption.Lua.Source"))()
 local Window = Library:CreateWindow({
- Title = 'Corruption | DaHood🔫 | version 0.2.1 |, -- Make sure the version is up to date or else the script will NOT inject. If it isnt injecting check the script version in the discord server and check if the script version is matching the server "0.0.0" ect
+ Title = 'Corruption | DaHood🔫 | Version 347f |,
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -3387,7 +3387,7 @@ RightGroupBox:AddLabel('Fog Color Picker'):AddColorPicker('FogColorPicker', {
     
     -- Settings
     local soundOptions = {
-        Ding = "rbxassetid://8578195318",
+        Rust_HeadShot = "rbxassetid://4764109000",
         Hitmarker = "rbxassetid://9116483270",
         Fortnite_Headshot = "rbxassetid://2513174484"
     }
