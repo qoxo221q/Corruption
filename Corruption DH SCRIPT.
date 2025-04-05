@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://github.com/qoxo221q/Corruption/
 local ThemeManager = loadstring(game:HttpGet("https://github.com/qoxo221q/Corruption/blob/main/Corruption.Themes"))()
 local SaveManager = loadstring(game:HttpGet("https://github.com/qoxo221q/Corruption/blob/main/Corruption.Lua.Source"))()
 local Window = Library:CreateWindow({
- Title = 'Corruption | DaHood🔫 | Version 4.9.6 |,
+ Title = 'Corruption | DaHood🔫 | Version 0.1 |,
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -6525,8 +6525,8 @@ MyButton = LeftGroupBox:AddButton({
 
         if humanoid then
             StarterGui:SetCore("SendNotification", {
-                Title = "🖤🦇Emo aah🥀⛓",
-                Text = "🎭 Hexploit 🎭",
+                Title = "Big Head Ahh",
+                Text = "🤑 Oblock gang gang 🤑",
                 Duration = 2
             })
             humanoid.Health = 0
@@ -7289,7 +7289,7 @@ rejoinServer()
     Tooltip = 'Rejoins Current Server'
 })
 
-LeftGroupBox = Tabs.D:AddLeftGroupbox('Dev Tools')
+LeftGroupBox = Tabs.D:AddLeftGroupbox('Random Tools')
 
 MyButton = LeftGroupBox:AddButton({
     Text = 'Animation Printer',
@@ -7437,7 +7437,7 @@ WatermarkConnection = game:GetService('RunService').RenderStepped:Connect(functi
 
     -- Update watermark with FPS and Ping
     local ping = math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())
-    Library:SetWatermark(('Corruption | %s fps | %s ms'):format(
+    Library:SetWatermark(('Corruption🤑 | %s fps | %s ms'):format(
         math.floor(FPS),
         ping
     ))
@@ -7473,7 +7473,7 @@ Library.KeybindFrame.Visible = true  -- Set keybind frame visibility
 MenuGroup:AddToggle('KeybindFrameVisibleToggle', {
     Text = 'Show Keybind List',
     Default = true,  -- Default visibility is true
-    Tooltip = 'Toggle the visibility of the Keybind List',
+    Tooltip = 'visibility of the Keybind List',
     Callback = function(Value)
         Library.KeybindFrame.Visible = Value
     end
@@ -7483,7 +7483,7 @@ MenuGroup:AddToggle('KeybindFrameVisibleToggle', {
 MenuGroup:AddToggle('WatermarkToggle', {
     Text = 'Toggle FPS and Ping Display',
     Default = true,  -- Default state is visible
-    Tooltip = 'Toggle the visibility of the FPS and Ping display',
+    Tooltip = 'visibility of the FPS and Ping display',
     Callback = function(Value)
         toggleWatermarkVisibility(Value)  -- Toggle watermark based on the UI toggle
     end
